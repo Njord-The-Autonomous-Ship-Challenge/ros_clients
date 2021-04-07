@@ -1,0 +1,5 @@
+<launch>
+    <node ns="/" name="force_controller" pkg="ros_clients" type="force_controller_example_client.py" output="screen">
+        <rosparam file="$(find ros_clients)/config/example_client.yaml" command="load" />
+    </node>
+</launch>
