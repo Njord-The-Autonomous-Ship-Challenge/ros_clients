@@ -25,7 +25,7 @@ def callback(force):
     )
         
     success = force_control_stub.ApplyForce(
-            force_control_pb2.ForceRequest(vesselId = "Milliampere", 
+            force_control_pb2.ForceRequest(vesselId = "NjordVessel", 
             generalizedForce = grpc_force
     ))
 
